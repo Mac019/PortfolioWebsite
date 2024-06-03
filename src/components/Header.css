@@ -1,0 +1,70 @@
+#header {
+  width: 100%;
+  height: 90vh;
+  background-image: url('../assets/Mac1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  padding: 10px 10%;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logo {
+  width: 200px;
+  border-radius: solid white 20px;
+  margin-right: 930px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 25px;
+  position: relative;
+}
+
+nav ul li a::after {
+  content: '';
+  width: 0;
+  height: 3px;
+  background: #ff004f;
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  transition: 0.5s;
+}
+
+nav ul li a:hover::after {
+  width: 100%;
+}
+
+.header-text {
+  margin-top: 20%;
+  font-size: 30px;
+}
+
+.header-text h1 {
+  font-size: 60px;
+  margin-top: 20px;
+}
+
+.header-text h1:hover {
+  color: #b6795a;
+}
+
+.header-text span {
+  color: rgb(174, 231, 16);
+}
